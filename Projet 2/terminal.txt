@@ -1,0 +1,276 @@
+Last login: Fri Jul  1 09:37:18 on console
+MacBook-Pro-de-Lenny:~ lennysiemeni$ sftp://siemenil@frontal09.iro.umontreal.ca/home/www-etud/siemenil/sieme
+-bash: sftp://siemenil@frontal09.iro.umontreal.ca/home/www-etud/siemenil/sieme: No such file or directory
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ ssh siemenil@frontal.iro.umontreal.ca
+ssh_exchange_identification: read: Connection reset by peer
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ ssh siemenil@frontal.iro.umontreal.ca
+
+
+ssh_exchange_identification: read: Connection reset by peer
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+MacBook-Pro-de-Lenny:~ lennysiemeni$ ssh siemenil@frontal07.iro.umontreal.ca
+The authenticity of host 'frontal07.iro.umontreal.ca (132.204.24.40)' can't be established.
+RSA key fingerprint is 8e:79:23:a6:7c:8f:35:43:84:6e:22:e7:3e:76:36:98.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'frontal07.iro.umontreal.ca,132.204.24.40' (RSA) to the list of known hosts.
+siemenil@frontal07.iro.umontreal.ca's password: 
+Last login: Sat Jul  2 14:45:53 2016 from desir42.iro.umontreal.ca
+  ################
+  # DIRO FC14-64 #
+  ################
+
+----------------------------------------
+  Ce serveur est strictement reserve
+  aux situations exceptionnelles.
+
+  Veuillez utiliser le serveur generique
+  frontal.iro.umontreal.ca.
+----------------------------------------
+
+Ne pas utiliser comme machine de calcul.
+----------------------------------------
+frontal07% ls
+Documents  IFT1142  IFT1144  IFT1147  IFT1148  IFT1166  IFT1170  IFT1179  IFT1810  Nouveau dossier  NTLOGIN  remise-tp3  test
+frontal07% 
+frontal07% 
+frontal07% 
+frontal07% ls
+Documents  IFT1142  IFT1144  IFT1147  IFT1148  IFT1166  IFT1170  IFT1179  IFT1810  Nouveau dossier  NTLOGIN  remise-tp3  test
+frontal07% cat test/
+cat: test/: est un dossier
+frontal07% 
+frontal07% 
+frontal07% vi test.sql
+frontal07% 
+frontal07% 
+frontal07% mysql -p -h mysql.iro.umontreal.ca
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 368194
+Server version: 5.5.44-MariaDB MariaDB Server
+
+Copyright (c) 2000, 2011, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> source test.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+ERROR 1044 (42000): Access denied for user 'siemenil'@'%.umontreal.ca' to database 'siemenil'
+ERROR 1044 (42000): Access denied for user 'siemenil'@'%.umontreal.ca' to database 'siemenil'
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+mysql> 
+mysql> 
+mysql> 
+mysql> source test.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1049 (42000): Unknown database 'siemenil_filme'
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| siemenil_filem     |
++--------------------+
+2 rows in set (0.03 sec)
+
+mysql> 
+mysql> 
+mysql> source test.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.36 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 7 rows affected (0.00 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 1 row affected (0.08 sec)
+Records: 1  Duplicates: 0  Warnings: 0
+
+Query OK, 7 rows affected (0.07 sec)
+Records: 7  Duplicates: 0  Warnings: 0
+
+Query OK, 1 row affected (0.09 sec)
+Records: 1  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| siemenil_filme     |
++--------------------+
+2 rows in set (0.03 sec)
+
+mysql> use siemenil_filme;
+Database changed
+mysql> 
+mysql> 
+mysql> show tables;
++--------------------------+
+| Tables_in_siemenil_filme |
++--------------------------+
+| connexion                |
+| films                    |
+| membre                   |
+| panier                   |
++--------------------------+
+4 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> describe films;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| numFilm     | int(11)     | NO   | PRI | NULL    |       |
+| titre       | varchar(50) | NO   |     | NULL    |       |
+| realisateur | varchar(30) | NO   |     | NULL    |       |
+| categorie   | varchar(20) | NO   |     | NULL    |       |
+| duree       | int(11)     | NO   |     | NULL    |       |
+| prix        | float       | NO   |     | NULL    |       |
+| image       | varchar(50) | YES  |     | NULL    |       |
+| infoVideo   | varchar(50) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+8 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> select * from films;
++---------+----------------------------------------+----------------------------+--------------+-------+-------+---------+-------------+
+| numFilm | titre                                  | realisateur                | categorie    | duree | prix  | image   | infoVideo   |
++---------+----------------------------------------+----------------------------+--------------+-------+-------+---------+-------------+
+|       1 | Un prince a New York                   | John Landis                | Comédie     |   116 |  7.99 | 001.jpg | sd3AIel94dw |
+|       2 | Astérix et Obélix:mission Cléopatre | Alain Chabat               | Comédie     |   107 |  8.99 | 002.jpg | kCFrvuPpAoQ |
+|       3 | Warrior                                | Gavin O Connor             | Drame        |   140 | 15.99 | 003.jpg | JKxr8K9962I |
+|       4 | Prommesse de l ombre                   | David Cronenberg           | Suspense     |   100 | 12.99 | 004.jpg | wP0T8uA7HQg |
+|       5 | Whiplash                               | Damien Chazelle            | Drame        |   106 | 15.99 | 005.jpg | qpxjxhvP904 |
+|       6 | Le Chevalier Noir                      | Christopher Nolan          | Super-Héros |   153 | 14.99 | 006.jpg | wrcaivEjWCo |
+|       7 | Le Film lego                           | Phil Lord and Chris Miller | Animation    |   100 | 16.99 | 007.jpg | Eh2NEx_Qi0k |
++---------+----------------------------------------+----------------------------+--------------+-------+-------+---------+-------------+
+7 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+frontal07% exit
+logout
+Connection to frontal07.iro.umontreal.ca closed.
+MacBook-Pro-de-Lenny:~ lennysiemeni$ 
+
+
+
+
+
+
+
+
+
+------------------------------------------- PAGE 2 -------------------------------------------
+
+
+
+Last login: Sat Jul  2 15:49:09 on ttys000
+MacBook-Pro-de-Lenny:~ lennysiemeni$ ls
+Applications			Google Drive			OneDrive			VirtualBox VMs
+Bibliothèque calibre		Library				Pictures			Widget & app
+Cours IFT 1166 - Intro POO.cpp	Local Settings			Public				Wine Files
+Desktop				Movies				Samsung				tmp
+Documents			Music				Start Menu			villeChoisie.php
+Downloads			My Documents			Untitled 3.cpp
+MacBook-Pro-de-Lenny:~ lennysiemeni$ cd Desktop/
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ scp siemenil.sql siemenil@frontal.iro.umontreal.ca
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ ssh siemenil@frontal.iro.umontreal.ca
+ssh_exchange_identification: read: Connection reset by peer
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ ssh siemenil@frontal07.iro.umontreal.ca
+siemenil@frontal07.iro.umontreal.ca's password: 
+Last login: Sat Jul  2 15:52:20 2016 from 10.225.231.143
+  ################
+  # DIRO FC14-64 #
+  ################
+
+----------------------------------------
+  Ce serveur est strictement reserve
+  aux situations exceptionnelles.
+
+  Veuillez utiliser le serveur generique
+  frontal.iro.umontreal.ca.
+----------------------------------------
+
+Ne pas utiliser comme machine de calcul.
+----------------------------------------
+frontal07% vi tes
+test/     test.sql  
+frontal07% vi test.sql 
+frontal07% 
+frontal07% 
+frontal07% vi test.sql
+frontal07% 
+frontal07% 
+frontal07% exit
+logout
+Connection to frontal07.iro.umontreal.ca closed.
+MacBook-Pro-de-Lenny:Desktop lennysiemeni$ 

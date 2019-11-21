@@ -1,0 +1,1 @@
+Pour lancer l’interface du programme, compiler tous les fichiers .java et lancer a partir de Gui.java
